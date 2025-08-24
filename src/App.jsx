@@ -1,9 +1,11 @@
+import React from "react";
 import Profile from "./Profile.jsx";
 
 function App() {
   return (
     <>
-      <Profile isLoggedIn={false} username="Melthon" />
+      {/* Try changing this prop to Ilawan, Umipon, Buta, or Donaire */}
+      <Profile isLoggedIn="Umipon"/>
     </>
   );
 }

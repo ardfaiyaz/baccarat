@@ -1,0 +1,11 @@
+.salazar-container {
+  background: #2c2c54;
+  color: #f5f6fa;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  border: 2px solid #9c88ff;
+}
+.salazar-container h1 {
+  color: #9c88ff;
+}

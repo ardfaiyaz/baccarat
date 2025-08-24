@@ -1,0 +1,11 @@
+.ilawan-container {
+  background: #1a1a2e;
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+.ilawan-container h1 {
+  color: #ffdd00;
+}
