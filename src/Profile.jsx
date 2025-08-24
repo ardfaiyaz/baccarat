@@ -1,7 +1,11 @@
+import React from "react";
+import PropTypes from "prop-types";
+
 function Profile(props) {
-    return (
-        <div>
-            <h1>Profile</h1>
-        </div>
-    )
+  const loginMessage = <h1>Welcome back, {props.username}!</h1>;
+  const wrongCredentials = <h1>Please log in to continue.</h1>;
+
+  return props.isLoggedIn ? loginMessage : wrongCredentials;
 }
+
+export default Profile;
