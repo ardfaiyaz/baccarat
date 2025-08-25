@@ -1,0 +1,79 @@
+/* This CSS file styles the ButaCard component. */
+
+.butacard {
+  background-color: #18191a; /* Corresponds to bg-slate-800 */
+  padding: 1rem; /* Corresponds to p-4 */
+  border-radius: 0.75rem; /* Corresponds to rounded-xl */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* Corresponds to shadow-lg */
+  transition-property: transform, box-shadow; /* Corresponds to transition */
+  transition-duration: 300ms; /* Corresponds to duration-300 */
+  transform: scale(1); /* Base scale */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.butacard:hover {
+  transform: scale(1.05); /* Corresponds to hover:scale-105 */
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); /* Corresponds to hover:shadow-2xl */
+}
+
+.butacard-image-container {
+  position: relative;
+  width: 100%;
+  height: 8rem; /* Corresponds to h-32 */
+  border-radius: 0.5rem; /* Corresponds to rounded-lg */
+  overflow: hidden;
+  margin-bottom: 1rem; /* Corresponds to mb-4 */
+}
+
+.butacard-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition-property: transform;
+  transition-duration: 300ms;
+}
+
+/* Note: The group-hover effect on the image is managed by the parent's hover state in the JSX, which is not directly translatable to standalone CSS. */
+.butacard-image-container:hover .butacard-image {
+  transform: scale(1.1);
+}
+
+.butacard-image-overlay {
+  position: absolute;
+  inset: 0;
+  background-image: linear-gradient(to top, rgba(15, 23, 42, 1), transparent, transparent); /* Corresponds to bg-gradient-to-t from-slate-900 */
+}
+
+.butacard-content {
+  width: 100%;
+}
+
+.butacard-title {
+  font-size: 1.25rem; /* Corresponds to text-xl */
+  font-weight: 700; /* Corresponds to font-bold */
+  color: #fff; /* Corresponds to text-white */
+  margin-bottom: 0.5rem; /* Corresponds to mb-2 */
+}
+
+.butacard-details {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  font-size: 0.875rem; /* Corresponds to text-sm */
+  color: #94a3b8; /* Corresponds to text-slate-400 */
+}
+
+.butacard-detail-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem; /* Corresponds to mb-1 */
+}
+
+.butacard-icon {
+  margin-right: 0.5rem; /* Corresponds to mr-2 */
+}
+

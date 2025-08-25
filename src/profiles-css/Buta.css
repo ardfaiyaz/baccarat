@@ -1,11 +1,228 @@
-.buta-container {
-  background: #16213e;
-  color: #ff4c29;
-  padding: 20px;
-  border-radius: 12px;
-  text-align: center;
-  border: 2px solid #ff4c29;
+/* This CSS file styles the main Buta component and layout. */
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Changed to align items to the top of the body */
+  background-image: url('https://i.pinimg.com/1200x/fb/d7/81/fbd7819fc13d5217e9bb954a36a69b4a.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.buta-container h1 {
-  color: #ff6347;
+
+.buta-container {
+  max-width: 1500px;
+  width: 100%;
+  color: #585b5e;
+  font-family: sans-serif;
+  padding: 1.5rem;
+  margin: 0; /* Ensures no extra margin is applied */
+  background-color: rgba(33, 35, 39, 0.8);
+  border-radius: 1rem;
+}
+
+/* Responsive padding for larger screens */
+@media (min-width: 768px) {
+  .buta-container {
+    padding: 3rem;
+  }
+}
+
+.buta-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.buta-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #e1e5eb;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive font size for larger screens */
+@media (min-width: 768px) {
+  .buta-title {
+    font-size: 3rem;
+  }
+}
+
+.buta-title-icon {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+
+.buta-bio {
+  font-size: 1.125rem;
+  color: #94a3b8;
+}
+
+/* Responsive font size for larger screens */
+@media (min-width: 768px) {
+  .buta-bio {
+    font-size: 1.25rem;
+  }
+}
+
+/* Profile Section */
+.buta-profile-section {
+  background-color:  #2b2b2c;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+/* Responsive layout for larger screens */
+@media (min-width: 768px) {
+  .buta-profile-section {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+
+.buta-profile-image {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 9999px;
+  margin-bottom: 1.5rem;
+  border-width: 4px;
+  border-color: #bfc4cc;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive margin for larger screens */
+@media (min-width: 768px) {
+  .buta-profile-image {
+    margin-bottom: 0;
+    margin-right: 2rem;
+  }
+}
+
+.buta-profile-info {
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Responsive text alignment for larger screens */
+@media (min-width: 768px) {
+  .buta-profile-info {
+    text-align: left;
+  }
+}
+
+.buta-username {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive justification for larger screens */
+@media (min-width: 768px) {
+  .buta-username {
+    justify-content: flex-start;
+  }
+}
+
+.buta-badge-icon {
+  color: #adafb1;
+  margin-left: 0.5rem;
+}
+
+.buta-joined-date {
+  color: #94a3b8;
+  margin-bottom: 1rem;
+}
+
+.buta-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+/* Responsive justification for larger screens */
+@media (min-width: 768px) {
+  .buta-stats {
+    justify-content: flex-start;
+  }
+}
+
+.buta-stat-item {
+  display: flex;
+  align-items: center;
+  background-color: #334155;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.buta-stat-icon {
+  margin-right: 0.5rem;
+}
+
+/* Games Section */
+.buta-games-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive justification for larger screens */
+@media (min-width: 768px) {
+  .buta-games-title {
+    justify-content: flex-start;
+  }
+}
+
+.buta-games-icon {
+  margin-right: 0.5rem;
+  color: #9c9ea0;
+}
+
+.buta-games-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+/* Responsive grid layout for larger screens */
+@media (min-width: 640px) {
+  .buta-games-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1024px) {
+  .buta-games-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.buta-about-me {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #cbd5e1; /* Corresponds to text-slate-300 */
+  margin-bottom: 1rem; /* Space below the paragraph */
 }
