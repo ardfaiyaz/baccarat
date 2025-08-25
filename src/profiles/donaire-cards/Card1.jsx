@@ -4,8 +4,8 @@ import "./Card1.css";
 function Card1() {
   const games = [
     { 
-      name: "Valorant", 
-      img: "https://cdn2.steamgriddb.com/icon_thumb/9e82757e9a1c12cb710ad680db11f6f1.png",
+      name: "VALORANT", 
+      img: "https://i.pinimg.com/736x/3c/21/d1/3c21d17e7b8619b04052dd2470c6a766.jpg",
       recent: "Last played: Yesterday",
       hours: "420 hrs played"
     },
@@ -14,6 +14,36 @@ function Card1() {
       img: "https://play-lh.googleusercontent.com/W-CzAn-W-tWrELjPtofop-qsQNALfCaHv8xguo-8OO8IRn-G2CjSI9-jxtxSQIrzTQNq=w240-h480-rw", /* placeholder image, replace with a better one if you have */
       recent: "Last played: 3 days ago",
       hours: "180 hrs played"
+    },
+    { 
+      name: "Umamusume: Pretty Derby", 
+      img: "https://play-lh.googleusercontent.com/BVhOavTYCExydDidgQyS9eiYcSlnX8XxhcYRV9xBhnCDuYgttcZgv-TghmM9KpnWLFt5=w240-h480-rw", /* placeholder image, replace with a better one if you have */
+      recent: "Last played: 7 days ago",
+      hours: "67 hrs played"
+    },
+    { 
+      name: "Mobile Legends Bang Bang", 
+      img: "https://play-lh.googleusercontent.com/Bi6Ci1rk-szbr2-zaiy1ERCwgf6ndaNX81btfma8JurIMAg-_E5erEHGT2E5U6pyRCGSaV0091Kdt6tOboL9t9Y", /* placeholder image, replace with a better one if you have */
+      recent: "Last played: 3 hours ago",
+      hours: "3600 hrs played"
+    },
+    { 
+      name: "God Of War Ragnarok", 
+      img: "https://upload.wikimedia.org/wikipedia/en/e/ee/God_of_War_Ragnar%C3%B6k_cover.jpg", /* placeholder image, replace with a better one if you have */
+      recent: "Last played: 8 hours ago",
+      hours: "78 hrs played"
+    },
+    { 
+      name: "Red Dead Redemption 2", 
+      img: "https://upload.wikimedia.org/wikipedia/en/thumb/4/44/Red_Dead_Redemption_II.jpg/250px-Red_Dead_Redemption_II.jpg", /* placeholder image, replace with a better one if you have */
+      recent: "Last played: 21 days ago",
+      hours: "3600 hrs played"
+    },
+    { 
+      name: "Call of Duty: Mobile", 
+      img: "https://images.sftcdn.net/images/t_app-icon-m/p/8e219604-f336-4423-866a-39be44bc82d3/1560230834/call-of-duty-mobile-garena-logo", /* placeholder image, replace with a better one if you have */
+      recent: "Last played: 3 hours ago",
+      hours: "3600 hrs played"
     },
     { 
       name: "CS2", 
@@ -34,19 +64,19 @@ function Card1() {
       hours: "120 hrs played"
     },
     { 
-      name: "GTA V", 
+      name: "Grand Theft Auto V", 
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoGX17lP1sKgnT7uHIg5zgI7G136TFJajNvg&s",
       recent: "Last played: 2 weeks ago",
       hours: "400 hrs played"
     },
     { 
-      name: "NFS Heat", 
+      name: "Need For Speed Heat", 
       img: "https://cdn2.steamgriddb.com/icon/acf7c66123cd145d39a062ded3aafd6b.ico",
       recent: "Last played: 2 days ago",
       hours: "150 hrs played"
     },
     { 
-      name: "F1 2024", 
+      name: "F1 '24", 
       img: "https://cdn-6.motorsport.com/images/amp/Y9984G7Y/s1000/f1-24-game.jpg", /* placeholder image */
       recent: "Last played: 1 day ago",
       hours: "60 hrs played"

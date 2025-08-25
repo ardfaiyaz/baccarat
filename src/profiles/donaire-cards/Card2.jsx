@@ -5,13 +5,13 @@ function Card2() {
   const ign = "Ard The Nigger Faiyaz";
   const level = 99;
   const bio =
-    "skibidi gyatt rizz only in ohio duke dennis did you pray today livvy dunne rizzing up baby gronk sussy imposter pibby glitch in real life sigma alpha omega male grindset andrew tate goon cave freddy fazbear colleen ballinger smurf cat vs strawberry elephant blud dawg shmlawg ishowspeed a whole bunch of turbulence ambatukam";
+    "skibidi gyatt rizz only in ohio duke dennis did you pray today livvy dunne rizzing up baby gronk sussy imposter pibby glitch in real life sigma alpha omega male grindset andrew tate goon cave freddyskibidi gyatt rizz only in ohio duke dennis did you pray today livvy dunne rizzing up  class not the mosquito again bussing axel in harlem ";
 
   return (
     <div className="card-container">
       <div className="pfp-box">
         <img
-          src="https://images.plex.tv/photo?size=large-1920&scale=1&url=https%3A%2F%2Fimage.tmdb.org%2Ft%2Fp%2Foriginal%2FwhvbNyXLZpoZfFqeeMJMBRcm3qg.jpg"
+          src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdTh6a3VucnRqdXRneDdyNDBpbTB2c2E4cXhsMGhkZGxubTk5cjRoeCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/oJjxexthHrPbi/giphy.gif"
           alt="pfp"
         />
       </div>

@@ -6,6 +6,9 @@
   text-align: center;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
   color: white;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: transform 0.3s;
   display: flex;
   transition: transform 0.3s;
   flex-direction: column;
@@ -21,6 +24,7 @@
   object-fit: cover;
   border-radius: 25px;
   border: 2px solid #00ffaa;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8); /* Drop shadow */
 }
 
 .pfp-box {

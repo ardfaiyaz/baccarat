@@ -2,12 +2,29 @@ import React from "react";
 import "./Card5.css";
 
 function Card5() {
+  const achievements = [
+    { icon: "🎯", title: "Ascendant", description: "Reached Ascendant rank in Valorant" },
+    { icon: "🔥", title: "Mythical Immortal", description: "Achieved Mythical Immortal in MLBB" },
+    { icon: "🏆", title: "Tournament Winner", description: "Won the 2025 Summer Esports Cup" },
+    { icon: "⚡", title: "Speed Demon", description: "Fastest round win record" },
+    { icon: "💎", title: "Collector", description: "Unlocked all rare skins" },
+    { icon: "🛡️", title: "Guardian", description: "Most MVPs as support role" },
+    { icon: "⭐", title: "Sharp Shooter", description: "Maintained 90% headshot accuracy" },
+    { icon: "🥇", title: "Elite Champion", description: "Top 1% in global leaderboard" }
+  ];
+
   return (
     <div className="card5">
-      <h3>Player Stats</h3>
-      <p>Wins: 150</p>
-      <p>Losses: 45</p>
-      <p>Hours Played: 320h</p>
+      <h3>Recent Achievements</h3>
+      <div className="achievements-grid">
+        {achievements.map((ach, index) => (
+          <div className="achievement" key={index}>
+            <div className="icon">{ach.icon}</div>
+            <h4>{ach.title}</h4>
+            <p>{ach.description}</p>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
