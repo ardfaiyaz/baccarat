@@ -1,0 +1,68 @@
+.card-container {
+  background: rgba(255, 255, 255, 0.10);
+  padding: 20px;
+  border-radius: 15px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  transition: transform 0.3s;
+  flex-direction: column;
+}
+
+.card-container:hover {
+  transform: translateY(-4px);
+}
+
+.pfp-box img {
+  width: 80%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 25px;
+  border: 2px solid #00ffaa;
+}
+
+.pfp-box {
+  margin-bottom: 15px;
+}
+
+.ign-level-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* aligns Level with the top (IGN label) */
+  width: 100%;
+}
+
+.ign-section {
+  display: flex;
+  flex-direction: column; /* stacks IGN label above IGN name */
+  text-align: left;
+}
+
+.ign-label {
+  font-size: 1rem;
+  color: #ccc;
+  margin: 0;
+}
+
+.ign-name {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #00ffcc;
+  margin: 0;
+}
+
+.level {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #ccc;
+  margin: 0;
+}
+
+.bio {
+  text-align: left;
+  font-size: 0.98rem;
+  line-height: 1.4;
+  color: #ddd;
+}
