@@ -1,12 +1,23 @@
 import React from "react";
-import "../profiles-css/Donaire.css";
+import "./../profiles-css/Donaire.css";
+import Card1 from "./donaire-cards/Card1";
+import Card2 from "./donaire-cards/Card2";
+import Card3 from "./donaire-cards/Card3";
+import Card4 from "./donaire-cards/Card4";
+import Card5 from "./donaire-cards/Card5";
 
-function Donaire({ username }) {
+function Donaire() {
   return (
-    <div className="donaire-container">
-      <h1>🎮 Donaire Gaming Hub 🎮</h1>
-      <p>Welcome, {username}!</p>
-      <p>Known for clutch plays and game-winning decisions!</p>
+    <div className="main-container">
+      <div className="top-row">
+        <Card1 />
+        <Card2 />
+        <Card3 />
+      </div>
+      <div className="bottom-row">
+        <Card4 />
+        <Card5 />
+      </div>
     </div>
   );
 }
