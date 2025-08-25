@@ -5,8 +5,8 @@ function Card5() {
   const achievements = [
     { icon: "🎯", title: "Ascendant", description: "Reached Ascendant rank in Valorant" },
     { icon: "🔥", title: "Mythical Immortal", description: "Achieved Mythical Immortal in MLBB" },
-    { icon: "🏆", title: "Tournament Winner", description: "Won the 2025 Summer Esports Cup" },
-    { icon: "⚡", title: "Speed Demon", description: "Fastest round win record" }
+    { icon: "🏆", title: "WINNER !", description: "Won the 2025 MLBB Tournament" },
+    { icon: "💎", title: "UR Erii", description: "I turned Erii into UR in Dragon Raja, took me months to farm mats." }
   ];
 
   return (
