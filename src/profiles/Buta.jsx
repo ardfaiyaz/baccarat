@@ -1,6 +1,6 @@
 import React from 'react';
 import { BadgeCheck, Gamepad2, Layers3, Flame, Clock, User, Award, Crown } from 'lucide-react';
-import ButaCard from '../Butacard'; 
+import ButaCard from './buta-cards/Butacard'; 
 import '../profiles-css/Buta.css'; 
 import ME from '../assets/hero.jpg'
 
