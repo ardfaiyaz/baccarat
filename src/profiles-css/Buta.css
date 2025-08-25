@@ -1,14 +1,17 @@
 /* This CSS file styles the main Buta component and layout. */
 
-body {
+html, body {
   margin: 0;
   padding: 0;
+  height: auto;             
+  min-height: 100vh;        
+  overflow-y: auto;         
   width: 100%;
-  min-height: 100vh;
+  font-family: sans-serif;
   background-image: url('https://i.pinimg.com/1200x/fb/d7/81/fbd7819fc13d5217e9bb954a36a69b4a.jpg');
-  background-size: 100%;
+  background-size: cover;   
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed; 
 }
 
 .buta-container {
