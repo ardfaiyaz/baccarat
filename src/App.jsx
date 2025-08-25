@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       {/* Try changing this prop to Ilawan, Umipon, Buta, or Donaire */}
-      <Profile isLoggedIn="Buta"/>
+      <Profile isLoggedIn="Donaire"/>
     </>
   );
 }
