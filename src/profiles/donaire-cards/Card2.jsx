@@ -2,7 +2,7 @@ import React from "react";
 import "./Card2.css";
 
 function Card2() {
-  const ign = "Ard The Nigger Faiyaz";
+  const ign = "Ard The Faiyaz";
   const level = 99;
   const bio =
     "skibidi gyatt rizz only in ohio duke dennis did you pray today livvy dunne rizzing up baby gronk sussy imposter pibby glitch in real life sigma alpha omega male grindset andrew tate goon cave freddyskibidi gyatt rizz only in ohio duke dennis did you pray today livvy dunne rizzing up  class not the mosquito again bussing axel in harlem ";
