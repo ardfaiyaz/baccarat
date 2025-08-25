@@ -1,5 +1,5 @@
 import React from "react";
-import "../ilawancard/Card.css";
+import "./Card.css";
 
 function Card({ title, children }) {
   return (

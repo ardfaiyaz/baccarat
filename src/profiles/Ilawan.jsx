@@ -1,6 +1,6 @@
 import React from "react";
 import "../profiles-css/Ilawan.css";
-import Card from "../ilawancard/Card.jsx";
+import Card from "./ilawancard/Card.jsx";
 
 function Ilawan() {
   return (

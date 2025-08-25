@@ -6,11 +6,7 @@ function Card5() {
     { icon: "🎯", title: "Ascendant", description: "Reached Ascendant rank in Valorant" },
     { icon: "🔥", title: "Mythical Immortal", description: "Achieved Mythical Immortal in MLBB" },
     { icon: "🏆", title: "Tournament Winner", description: "Won the 2025 Summer Esports Cup" },
-    { icon: "⚡", title: "Speed Demon", description: "Fastest round win record" },
-    { icon: "💎", title: "Collector", description: "Unlocked all rare skins" },
-    { icon: "🛡️", title: "Guardian", description: "Most MVPs as support role" },
-    { icon: "⭐", title: "Sharp Shooter", description: "Maintained 90% headshot accuracy" },
-    { icon: "🥇", title: "Elite Champion", description: "Top 1% in global leaderboard" }
+    { icon: "⚡", title: "Speed Demon", description: "Fastest round win record" }
   ];
 
   return (
