@@ -3,11 +3,29 @@ body {
   font-family: Arial, sans-serif;
   background-color: #121212;
   color: #fff;
+  overflow-x: hidden;
+}
+
+.background-container {
+  padding-top: 300px;
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  overflow: hidden;
+  background: url("https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMWw2a21taDJ2b2d6ZGlwanV6c3g2ZXppdTJ2dTFkbWFvdTk4anFrbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dJo9h2zrdANo1GO3pd/giphy.gif")
+    no-repeat center center fixed;
+  background-size: cover;
 }
 
 .dashboard {
-  display: flex;
-  flex-direction: column;
+  width: 100%;
+  max-width: 1600px;
+  position: relative;
+  z-index: 1; 
+  padding-bottom: 3rem;
 }
 
 .navbar {
@@ -48,10 +66,10 @@ body {
 .avatar {
   width: 40px;
   height: 40px;
-  border-radius: 50%;   /* circular image */
-  object-fit: cover;    /* keeps aspect ratio & fills circle */
+  border-radius: 50%;
+  object-fit: cover;
   cursor: pointer;
-  border: 2px solid #444; /* optional border */
+  border: 2px solid #444;
 }
 
 .content {
@@ -60,7 +78,6 @@ body {
   gap: 2rem;
 }
 
-/* Card Style */
 .card {
   background: #1e1e1e;
   border-radius: 12px;
@@ -68,7 +85,6 @@ body {
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
 }
 
-/* Hero Section */
 .hero {
   flex: 2;
   position: relative;
@@ -133,8 +149,8 @@ body {
 
 .achievements-card {
   padding: 16px;
-  max-height: 250px;       /* 👈 limit card height */
-  overflow: hidden;        /* keeps header visible */
+  max-height: 250px;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
 }
@@ -150,8 +166,8 @@ body {
   padding: 0;
   margin: 0;
   flex: 1;
-  overflow-y: auto;       /* 👈 enable vertical scroll */
-  max-height: 200px;      /* 👈 controls scrollable area */
+  overflow-y: auto;
+  max-height: 200px;
 }
 
 .achievements-list li {
@@ -193,7 +209,6 @@ body {
   background: #45a049;
 }
 
-/* Optional: custom scrollbar */
 .achievements-list::-webkit-scrollbar {
   width: 6px;
 }
@@ -236,11 +251,10 @@ body {
   border-radius: 10px;
 }
 
-/* Profile container (avatar + text) */
 .friend-info {
   display: flex;
   align-items: baseline;
-  flex: 1; /* take remaining space so circle goes far right */
+  flex: 1;
 }
 
 .friend-avatar {
@@ -267,13 +281,12 @@ body {
   color: #666;
 }
 
-/* Status dot on far right */
 .status {
   width: 14px;
   height: 14px;
   border-radius: 50%;
   flex-shrink: 0;
-  margin-left: auto; /* pushes it to the far right */
+  margin-left: auto;
 }
 
 .status.online {
@@ -292,7 +305,6 @@ body {
   background-color: #2196f3;
 }
 
-/* Forums Section */
 .forums {
   margin: 2rem 0;
 }

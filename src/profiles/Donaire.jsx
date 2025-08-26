@@ -8,15 +8,17 @@ import Card5 from "./donaire-cards/Card5";
 
 function Donaire() {
   return (
-    <div className="main-container">
-      <div className="top-row">
-        <Card1 />
-        <Card2 />
-        <Card3 />
-      </div>
-      <div className="bottom-row">
-        <Card4 />
-        <Card5 />
+    <div className="outer-container">
+      <div className="main-container">
+        <div className="top-row">
+          <Card1 />
+          <Card2 />
+          <Card3 />
+        </div>
+        <div className="bottom-row">
+          <Card4 />
+          <Card5 />
+        </div>
       </div>
     </div>
   );
