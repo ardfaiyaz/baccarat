@@ -7,6 +7,7 @@ const Card = ({ children, className }) => {
 
 const Umipon = () => {
   return (
+  <div className="background-container">
     <div className="dashboard">
       {/* NAVBAR */}
       <nav className="navbar">
@@ -379,6 +380,7 @@ const Umipon = () => {
   </div>
 </section>
 
+    </div>
     </div>
   );
 };
