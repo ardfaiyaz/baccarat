@@ -8,7 +8,7 @@ const Card = ({ children, className }) => {
 const Umipon = () => {
   return (
     <div className="dashboard">
-      {/* NAVBAR */}
+      {}
       <nav className="navbar">
         <div className="logo">Leentik</div>
         <ul className="nav-links">
@@ -22,7 +22,7 @@ const Umipon = () => {
         <div className="profile">
           <input type="text" placeholder="Search..." className="search" />
           <img
-          src="https://i.pinimg.com/1200x/16/72/b1/1672b16e834c943cc988f904c349f9df.jpg"   // 👈 example internet image
+          src="https://i.pinimg.com/1200x/16/72/b1/1672b16e834c943cc988f904c349f9df.jpg" 
           alt="Profile"
           className="avatar"
           />
@@ -30,7 +30,7 @@ const Umipon = () => {
       </nav>
 
       <div className="content">
-        {/* HERO SECTION */}
+        {}
         <Card className="hero">
           <img
             src="https://uploads.jovemnerd.com.br/wp-content/uploads/2020/12/valorant-ep1-ato3-publi.jpg?ims=1210x544/filters:quality(75)"
@@ -46,7 +46,7 @@ const Umipon = () => {
           </div>
         </Card>
 
-        {/* SIDEBAR SECTIONS */}
+        {}
         <div className="sidebar">
           <Card className="friends-card">
   <h3>Friends</h3>
