@@ -6,8 +6,12 @@ body {
   overflow-x: hidden;
 }
 
+.tag {
+  margin-right: 50px;
+}
+
 .background-container {
-  padding-top: 300px;
+  padding-top: 385px;
   position: relative;
   width: 100vw;
   min-height: 100vh;
@@ -37,8 +41,14 @@ body {
 }
 
 .logo {
+  gap: 20px;
+  display: inline-block;
   font-weight: bold;
   font-size: 1.2rem;
+}
+
+.namee {
+  font-size: 1.5rem;
 }
 
 .nav-links {

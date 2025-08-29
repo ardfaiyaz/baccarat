@@ -4,6 +4,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+
 .ilawan-bg {
   position: fixed;
   inset: 0;
@@ -89,8 +90,20 @@ body {
 }
 
 .friend-info p {
-  color: lightblue;
+  color: white;
 }
+
+.friend-name {
+  margin: 0;
+}
+
+.friend-status {
+  color: lightblue;
+  margin: 0;
+  margin-bottom:  20px;
+}
+
+
 
 .friend-avatar {
   width: 40px;

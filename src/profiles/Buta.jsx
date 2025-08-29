@@ -11,6 +11,7 @@ const Buta = () => {
   const userProfile = {
     username: 'Quan Faiyaz!',
     bio: 'Gamer Profile',
+    tag: 'PRX',
     profilePicture: ME,
     level: 321,
     joinedDate: 'Joined October 2021',
@@ -96,6 +97,8 @@ const Buta = () => {
             {userProfile.username}
             <BadgeCheck size={24} className="buta-badge-icon" />
           </h2>
+          <h2 className='tag'>{userProfile.tag}</h2>
+
           <p className="buta-joined-date">{userProfile.joinedDate}</p>
           <p className="buta-about-me">{userProfile.aboutMe}</p>
           <div className="buta-stats">

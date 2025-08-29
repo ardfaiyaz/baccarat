@@ -17,8 +17,10 @@ function Salazar( {}) {
           className="profile-pic"
         />
 
-        <h1 className="gamer-name" style={{ color: "white" }}>Salazar(Dello)</h1>
-
+        <h1 className="gamer-name" style={{ color: "white" }}>Salazar</h1>
+        <div className="tagdiv">
+        <h2 className="tag">PRX</h2>
+        </div>
         <div className="profile-tag-stats-wrapper">
           <div className="profile-tag">
             <span className="friendly-text">Friendly</span> | <span className="risktaker-text">RiskTaker</span>

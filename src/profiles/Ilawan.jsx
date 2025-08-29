@@ -16,7 +16,7 @@ function Ilawan() {
               }}
             ></div>
             <div className="ilawan-user-info">
-              <h2 className="username">rune</h2>
+              <h2 className="username">rune <h2 className="tag">PRX</h2></h2>
               <div className="user-location">
                 <img
                   src="https://flagcdn.com/w20/ph.png"
@@ -48,7 +48,7 @@ function Ilawan() {
               {
                 title: "R.E.P.O.",
                 desc: "1,230 hrs on record · Last played on 21 Jul",
-                img: "https://images.g2a.com/323x433/1x1x1/repo-p10000510013/33d5982d7aca4b5ebffc8f63",
+                img: "https://static.wikia.nocookie.net/all-about-gaming/images/e/e7/R.E.P.O.Image.362313--Fandom.Wiki%3F%3F.png",
               },
               {
                 title: "Blue Archive",
@@ -129,6 +129,7 @@ function Ilawan() {
                     ></div>
                     <div className="friend-info">
                       <p className="friend-name">{name}</p>
+
                       <p className={`friend-status ${status === "Online" ? "online" : ""}`}>
                         {status}
                       </p>

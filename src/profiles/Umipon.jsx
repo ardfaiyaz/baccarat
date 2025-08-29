@@ -11,7 +11,11 @@ const Umipon = () => {
     <div className="dashboard">
       {}
       <nav className="navbar">
-        <div className="logo">Leentik</div>
+        <div className="logo">
+          <div className="namee">Leentik</div>
+          <div className="tag">PRX</div>
+        </div>
+      
         <ul className="nav-links">
           <li>Home</li>
           <li>Store</li>
